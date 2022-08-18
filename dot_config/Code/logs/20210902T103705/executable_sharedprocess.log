@@ -1,0 +1,17 @@
+[2021-09-02 10:37:16.574] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-09-02 10:37:16.574] [sharedprocess] [info] [logs cleanup]: Removing log folders '20210902T042512'
+[2021-09-02 10:37:36.581] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-09-02 10:37:36.582] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-09-02 10:37:46.580] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-09-02 23:04:05.435] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-09-02 23:04:28.182] [sharedprocess] [info] Downloaded extension: ms-python.python /home/arsonstan/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.9.1191016588
+[2021-09-02 23:04:37.514] [sharedprocess] [info] Extracted extension to /home/arsonstan/.vscode/extensions/.3ad647df-0cea-48c9-bd13-e7327d5f4f83: ms-python.python
+[2021-09-02 23:04:37.968] [sharedprocess] [info] Renamed to /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588
+[2021-09-02 23:04:37.972] [sharedprocess] [info] Extracting completed. ms-python.python
+[2021-09-02 23:04:38.123] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2021-09-03 02:19:04.150] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2021-09-03 02:19:13.470] [sharedprocess] [info] Downloaded extension: vscodevim.vim /home/arsonstan/.config/Code/CachedExtensionVSIXs/vscodevim.vim-1.21.7
+[2021-09-03 02:19:13.747] [sharedprocess] [info] Extracted extension to /home/arsonstan/.vscode/extensions/.9783556e-02c3-45a2-ab28-d2a5f5c7c67f: vscodevim.vim
+[2021-09-03 02:19:13.798] [sharedprocess] [info] Renamed to /home/arsonstan/.vscode/extensions/vscodevim.vim-1.21.7
+[2021-09-03 02:19:13.801] [sharedprocess] [info] Extracting completed. vscodevim.vim
+[2021-09-03 02:19:13.854] [sharedprocess] [info] Extension installed successfully: vscodevim.vim

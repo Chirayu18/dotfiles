@@ -1,0 +1,10 @@
+#!/bin/sh
+
+test -z "$1" && echo "Usage: timer [message] [time(in seconds)]" && exit 1
+test -z "$2" && echo "Usage: timer [message] [time(in seconds)]" && exit 1
+
+while [ 1 ]
+do 
+	notify-send "$1"
+	sleep $2
+done

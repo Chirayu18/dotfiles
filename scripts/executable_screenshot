@@ -1,0 +1,1 @@
+( flameshot & ) && ( sleep 0.5s && flameshot gui )

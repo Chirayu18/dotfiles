@@ -1,0 +1,19 @@
+User belongs to experiment group 'jupyterTest'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 2021-09-02 11:04:00: ZMQ install verified.
+Info 2021-09-02 11:04:00: id is a63699d9-c9f6-4712-8e58-f454487f920c
+Info 2021-09-03 02:19:14: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+Info 2021-09-03 02:19:14: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+Info 2021-09-03 02:22:46: Shutting down notebooks for 6ab905c6-bd7a-46da-a937-ad09909c007c
+Info 2021-09-03 02:22:46: Disposing HostJupyterExecution 3cacba32-9456-4464-af16-606d10db6340
+Info 2021-09-03 02:22:46: Disposing super HostJupyterExecution 3cacba32-9456-4464-af16-606d10db6340
+Info 2021-09-03 02:22:46: Disposing HostJupyterExecution 3cacba32-9456-4464-af16-606d10db6340
+Info 2021-09-03 02:22:46: Finished disposing HostJupyterExecution  3cacba32-9456-4464-af16-606d10db6340
+Info 2021-09-03 02:22:46: Disposing HostJupyterExecution 3cacba32-9456-4464-af16-606d10db6340
+Info 2021-09-03 02:22:46: Finished disposing HostJupyterExecution  3cacba32-9456-4464-af16-606d10db6340
+Info 2021-09-03 02:22:46: Getting live share API during dispose HostJupyterExecution 3cacba32-9456-4464-af16-606d10db6340
+Info 2021-09-03 02:22:46: Detaching HostJupyterExecution 3cacba32-9456-4464-af16-606d10db6340
+Info 2021-09-03 02:22:46: Cleaning up server cache 3cacba32-9456-4464-af16-606d10db6340
+Info 2021-09-03 02:22:46: Finished disposing HostJupyterExecution  3cacba32-9456-4464-af16-606d10db6340

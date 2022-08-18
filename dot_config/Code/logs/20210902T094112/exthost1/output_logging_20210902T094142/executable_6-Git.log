@@ -1,0 +1,102 @@
+Validating found git in: git
+Using git 2.33.0 from git
+> git rev-parse --git-dir
+Open repository: /home/arsonstan/Projects/Earthsr/earthsr
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/arsonstan/Projects/Earthsr/earthsr/.git/refs/remotes/origin/main', is most likely packed.
+> git config --local branch.main.github-pr-owner-number
+> git config --get commit.template
+> git config --local branch.main.github-pr-owner-number
+> git show --textconv :eigensolver.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/arsonstan/Projects/Earthsr/earthsr/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :Earthsr_python/earthsr.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/Earthsr_python/earthsr.py
+> git show --textconv :eigensolver.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/arsonstan/Projects/Earthsr/earthsr/Earthsr_python/earthsr.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/arsonstan/Projects/Earthsr/earthsr/Earthsr_python/earthsr.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git show --textconv :eigensolver.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git show --textconv :Earthsr_python/earthsr.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/Earthsr_python/earthsr.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/arsonstan/Projects/Earthsr/earthsr/Earthsr_python/earthsr.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/arsonstan/Projects/Earthsr/earthsr/Earthsr_python/earthsr.py
+> git show --textconv :eigensolver.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git show --textconv :Earthsr_python/earthsubs.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/Earthsr_python/earthsubs.py
+> git show --textconv :Earthsr_python/earthsr.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/Earthsr_python/earthsr.py
+> git show --textconv :strings.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/strings.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/arsonstan/Projects/Earthsr/earthsr/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :eigensolver.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git show --textconv :strings.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/strings.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/arsonstan/Projects/Earthsr/earthsr/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :eigensolver.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git show --textconv :strings.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/strings.py
+> git show --textconv :eigensolver.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git show --textconv :strings.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/strings.py
+> git show --textconv :eigensolver.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/arsonstan/Projects/Earthsr/earthsr/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vars.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/vars.py
+> git show --textconv :eigensolver.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git show --textconv :eigensolver.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git show --textconv :eigensolver.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/arsonstan/Projects/Earthsr/earthsr/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :vars.py
+> git ls-files --stage -- /home/arsonstan/Projects/Earthsr/earthsr/vars.py

@@ -1,0 +1,9 @@
+#!/bin/sh
+test -z "$1" && echo "No Value Specified" && exit 1
+opacity=$(echo $1/10 | bc -l)
+yml="$HOME/.config/alacritty/alacritty.yml"
+if [ "$(cat $yml | grep opacity)" == "" ]; then 
+	echo $'window: \n    opacity:' $opacity >> $yml
+else
+	sed -i -e "/opacity/s/.*/    opacity: $opacity/" $yml
+fi

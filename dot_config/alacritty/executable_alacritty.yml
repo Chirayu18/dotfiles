@@ -1,0 +1,93 @@
+font:
+  size: 13
+    
+  normal:
+    family: Fira Code
+    style: Regular
+
+  bold:
+    family: Fira Code
+    style: Bold
+
+  italic:
+    family: Hermit
+    style: Italic
+
+  bold_italic:
+    family: Hermit
+    style: Bold Italic
+draw_bold_text_with_bright_colors: true
+
+  # Colors that should be used to draw the terminal cursor. If these are unset,
+  # the cursor colour will be the inverse of the cell colour.
+cursor:
+   text: '0x2e2e2d'
+   # text: '0x000000'
+   cursor: '0xffffff'
+
+colors:
+  # Default colours
+  primary:
+    background: '0x000b1e'
+    foreground: '0x0abdc6'
+
+
+  # Normal colors
+  normal:
+    black:   '0x123e7c'
+    red:     '0xff0000'
+    green:   '0xd300c4'
+    yellow:  '0xf57800'
+    blue:    '0x123e7c'
+    magenta: '0x711c91'
+    cyan:    '0x0abdc6'
+    white:   '0xd7d7d5'
+
+  # Bright colors
+  bright:
+    black:   '0x1c61c2'
+    red:     '0xff0000'
+    green:   '0xd300c4'
+    yellow:  '0xf57800'
+    blue:    '0x00ff00'
+    magenta: '0x711c91'
+    cyan:    '0x0abdc6'
+    white:   '0xd7d7d5'
+
+  # dim colors
+  dim:
+    black:   '0x1c61c2'
+    red:     '0xff0000'
+    green:   '0xd300c4'
+    yellow:  '0xf57800'
+    blue:    '0x123e7c'
+    magenta: '0x711c91'
+    cyan:    '0x0abdc6'
+    white:   '0xd7d7d5'
+    #colors:
+    #  primary:
+    #    background: "#131513"
+    #    foreground: "#8ca68c"
+    #  cursor:
+    #    text: "#131513"
+    #    cursor: "#8ca68c"
+    #  normal:
+    #    black: "#131513"
+    #    red: "#e6193c"
+    #    green: "#29aFiraCode 
+    #    yellow: "#c3cFiraCode 
+    #    blue: "#3d62f5"
+    #    magenta: "#ad2bee"
+    #    cyan: "#1999b3"
+    #    white: "#8ca68c"
+    #  bright:
+    #    black: "#687d68"
+    #    red: "#e6193c"
+    #    green: "#29aFiraCode 
+    #    yellow: "#c3cFiraCode 
+    #    blue: "#3d62f5"
+    #    magenta: "#ad2bee"
+    #    cyan: "#1999b3"
+    #    white: "#f0fff0"
+window: 
+    opacity: 1.00000000000000000000

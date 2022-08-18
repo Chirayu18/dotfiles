@@ -1,0 +1,2 @@
+#!/bin/sh
+xrandr | grep HDMI-0 | grep connected | wc -l

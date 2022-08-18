@@ -1,0 +1,64 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "vscode-neovim.mouseSelectionStartVisualMode": true,
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/arsonstan/.config/nvim/init.vim",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "window.menuBarVisibility": "toggle",
+
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.highlightedyank.enable": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      },
+      {
+        
+        "before": ["<C-l>"],
+        "commands": ["cursorRight"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "w"],
+        "commands": ["workbench.action.files.save"]
+      },
+      {
+        "before": ["<leader>", "q"],
+        "commands": ["workbench.action.closeActiveEditor"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["<leader>","j"],
+        "after": ["g","T"]
+      },
+      {
+        "before": ["<leader>","k"],
+        "after": ["g","t"]
+      },
+      {
+      "before": ["<leader>", "s"],
+      "commands": ["workbench.action.splitEditor"]
+      },
+      {
+      "before": ["g", "h"],
+      "commands": ["editor.action.showHover"]
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-f>": false,
+      "<C-a>": false
+    }
+  }
+      
+      

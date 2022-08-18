@@ -1,0 +1,21 @@
+# pack-refs with: peeled fully-peeled sorted 
+93fac56aa01b7aa8416abae3213095e72b3290e1 refs/remotes/origin/feat/cmd-args
+908df271ff4662b5be49cb9e50c1648d75d0cc29 refs/remotes/origin/feat/textobj-symbol
+178e58a9d65f4e8cd0e646f0b1def0923e24c6f5 refs/remotes/origin/master
+820a259f6b4390c917f6c328868677df850821bd refs/tags/v1.0
+228ac6dd9946bf146341e34d237899cc4ab19530 refs/tags/v1.1
+7c3061f6c4b70d78f1d27f377b9be36020b7d977 refs/tags/v1.2
+aae5262f19372afad44420a9a2143fc7789b8d29 refs/tags/v1.3
+a19c398b1e7876694ff5f6c65d95b23d5b8aadde refs/tags/v1.4
+099b0d319a548e963fe1bff612cea4071966afa8 refs/tags/v1.5
+7c886a0731f1aa283899575615b75192ec3632b7 refs/tags/v1.6
+d623e563f6e90287310b0022c3cae67cf014a6be refs/tags/v2.0
+fa2bd669a26f80d5f91240fcf27bc5cbbd0c944e refs/tags/v2.1
+3e76c81f329cb13b563b9092fb0e5097151bb08b refs/tags/v2.2
+f52928ff69c34929552aa418b3662cac5b849b3e refs/tags/v2.3
+428906647a22fdb30409554935eacdd9932726cb refs/tags/v2.4
+b0d430b80504e847584664d83e879399647cd38f refs/tags/v2.5
+607956c431fc00ffe752c61debc80ac95293ca5b refs/tags/v2.6
+00ed2f1612599c07de8d77cc85b4c1becfd1ae0f refs/tags/v2.7
+9fa256152db3a15584b38b49b331d65322fa6215 refs/tags/v2.7.1
+3db6aaaf42ff2b01d415d509b3c54d344d552b18 refs/tags/v2.8

@@ -1,0 +1,13 @@
+!Clear keys for 'lock' group used to capitalize letters and the 'Mod3' and 'Mod4' group
+clear Lock
+clear Mod3
+clear Mod4
+!Add the Menu Key to the 'lock' group
+add Lock = Menu
+!Add Super_L and Super_R to the Mod4 group
+add mod4 = Super_L
+add mod4 = Super_R
+!Keycode corresponding to the caps lock key is the new Hyper_L
+keycode 66 = Hyper_L
+!Add Hyper_L to Mod3
+add mod3 = Hyper_L

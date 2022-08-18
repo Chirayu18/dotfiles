@@ -1,0 +1,18 @@
+font:
+  normal:
+    family: 3270Medium Nerd Font Mono
+    style: Regular
+
+  bold:
+    family: 3270Medium Nerd Font Mono
+    style: Bold
+
+  italic:
+    family: 3270Medium Nerd Font Mono
+    style: Italic
+
+  bold_italic:
+    family: 3270Medium Nerd Font Mono
+    style: Bold Italic
+
+  size: 18

@@ -1,0 +1,15 @@
+User belongs to experiment group 'jupyterTest'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 2021-09-02 09:41:42: ZMQ install verified.
+Info 2021-09-02 09:41:42: id is ae78408b-5b2c-4f94-83cd-bbff6749d327
+Info 2021-09-02 10:33:03: Shutting down notebooks for 7043b95c-7387-4331-b70e-97576d5bfcc2
+Info 2021-09-02 10:33:03: Disposing HostJupyterExecution efe3c5d0-79de-4017-80f7-7500044dea0f
+Info 2021-09-02 10:33:03: Disposing super HostJupyterExecution efe3c5d0-79de-4017-80f7-7500044dea0f
+Info 2021-09-02 10:33:03: Disposing HostJupyterExecution efe3c5d0-79de-4017-80f7-7500044dea0f
+Info 2021-09-02 10:33:03: Finished disposing HostJupyterExecution  efe3c5d0-79de-4017-80f7-7500044dea0f
+Info 2021-09-02 10:33:03: Disposing HostJupyterExecution efe3c5d0-79de-4017-80f7-7500044dea0f
+Info 2021-09-02 10:33:03: Finished disposing HostJupyterExecution  efe3c5d0-79de-4017-80f7-7500044dea0f
+Info 2021-09-02 10:33:03: Getting live share API during dispose HostJupyterExecution efe3c5d0-79de-4017-80f7-7500044dea0f
+Info 2021-09-02 10:33:03: Detaching HostJupyterExecution efe3c5d0-79de-4017-80f7-7500044dea0f
+Info 2021-09-02 10:33:03: Cleaning up server cache efe3c5d0-79de-4017-80f7-7500044dea0f
+Info 2021-09-02 10:33:03: Finished disposing HostJupyterExecution  efe3c5d0-79de-4017-80f7-7500044dea0f

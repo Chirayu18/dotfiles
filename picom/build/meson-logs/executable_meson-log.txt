@@ -1,0 +1,762 @@
+Build started at 2021-08-24T03:22:30.845838
+Main binary: /usr/bin/python
+Build Options: -Dbuildtype=release
+Python system: Linux
+The Meson build system
+Version: 0.59.1
+Source dir: /home/arsonstan/Downloads/picom
+Build dir: /home/arsonstan/Downloads/picom/build
+Build type: native build
+Project name: picom
+Project version: 7
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/arsonstan/Downloads/picom/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 11.1.0 "cc (GCC) 11.1.0")
+C linker for the host machine: cc ld.bfd 2.36.1
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/arsonstan/Downloads/picom/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 11.1.0 "cc (GCC) 11.1.0")
+C linker for the build machine: cc ld.bfd 2.36.1
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program git found: YES (/usr/bin/git)
+Running command: /usr/bin/git rev-parse --short=5 HEAD
+--- stdout ---
+a8445
+
+--- stderr ---
+
+
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpbqmkzbrq
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpbqmkzbrq/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=c11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdc-predef.h")
+          #error "Header 'stdc-predef.h' could not be found"
+         #endif
+        #else
+         #include <stdc-predef.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "stdc-predef.h" : YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpehmvpyqb
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpehmvpyqb/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpehmvpyqb/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wall 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wall: YES 
+meson.build:63: WARNING: Consider using the built-in warning_level option instead of using "-Wall".
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmp5q1ai1z6
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmp5q1ai1z6/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmp5q1ai1z6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wcast-function-type 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wcast-function-type: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmp0ygcga27
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmp0ygcga27/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmp0ygcga27/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wignored-qualifiers 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wignored-qualifiers: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmp7v3dmpdm
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmp7v3dmpdm/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmp7v3dmpdm/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-parameter-type 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-parameter-type: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpezki5uta
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpezki5uta/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpezki5uta/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wnonnull 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wnonnull: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpn7e1i2og
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpn7e1i2og/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpn7e1i2og/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wshadow 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wshadow: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpcgtmzvn1
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpcgtmzvn1/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpcgtmzvn1/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits -Wno-type-limits 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-type-limits: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpl1xte19f
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpl1xte19f/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpl1xte19f/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-declaration 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wold-style-declaration: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmp9pt45cxq
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmp9pt45cxq/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmp9pt45cxq/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Woverride-init 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Woverride-init: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmp16ikjpdg
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmp16ikjpdg/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmp16ikjpdg/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wsign-compare: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpd0u3e8df
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpd0u3e8df/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpd0u3e8df/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wtype-limits: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpn60d9ber
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpn60d9ber/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpn60d9ber/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wuninitialized 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wuninitialized: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmp9tfeo7b3
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmp9tfeo7b3/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmp9tfeo7b3/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wshift-negative-value 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wshift-negative-value: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpffcft215
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpffcft215/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpffcft215/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-but-set-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-but-set-parameter: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmp33e4qzf7
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmp33e4qzf7/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmp33e4qzf7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-parameter: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpf3rpu3em
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpf3rpu3em/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpf3rpu3em/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-fallthrough 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wimplicit-fallthrough: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmphml1y06b
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmphml1y06b/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmphml1y06b/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wunknown-warning-option -Wno-unknown-warning-option 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ cc: error: unrecognized command-line option '-Wunknown-warning-option'
+
+Compiler for C supports arguments -Wno-unknown-warning-option: NO 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpf18onsfg
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpf18onsfg/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpf18onsfg/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-braces -Wno-missing-braces 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-braces: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpvgj08r2f
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpvgj08r2f/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpvgj08r2f/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wconversion 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wconversion: YES 
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpbd9vecdh
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpbd9vecdh/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpbd9vecdh/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wempty-body 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wempty-body: YES 
+
+Executing subproject test.h 
+
+Project name: test.h
+Project version: undefined
+C compiler for the host machine: cc (gcc 11.1.0 "cc (GCC) 11.1.0")
+C linker for the host machine: cc ld.bfd 2.36.1
+C compiler for the build machine: cc (gcc 11.1.0 "cc (GCC) 11.1.0")
+C linker for the build machine: cc ld.bfd 2.36.1
+Build targets in project: 0
+Subproject test.h finished.
+
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/bin/pkg-config (1.7.3)
+Determining dependency 'libev' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libev` -> 1
+
+CMake binary for 1 is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Did not find CMake 'cmake'
+Found CMake: NO
+CMake binary for machine 1 not found. Giving up.
+Run-time dependency libev found: NO (tried pkgconfig and cmake)
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmp03pm2xsi
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmp03pm2xsi/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmp03pm2xsi/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lev -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library ev found: YES
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmphjucn5je
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmphjucn5je/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmphjucn5je/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'x11' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion x11` -> 0
+1.7.2
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags x11` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs x11` -> 0
+-L/usr/lib -lX11
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs x11` -> 0
+-lX11
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpyj_pxxdj
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpyj_pxxdj/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpyj_pxxdj/output.exe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpy966y1w1
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpy966y1w1/testfile.c -o /home/arsonstan/Downloads/picom/build/meson-private/tmpy966y1w1/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../x86_64-pc-linux-gnu/11.1.0/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../lib/:/lib/x86_64-pc-linux-gnu/11.1.0/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/11.1.0/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency x11 found: YES 1.7.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'x11-xcb' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion x11-xcb` -> 0
+1.7.2
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags x11-xcb` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs x11-xcb` -> 0
+-L/usr/lib -lX11-xcb -lX11 -lxcb
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs x11-xcb` -> 0
+-lX11-xcb -lX11 -lxcb
+Run-time dependency x11-xcb found: YES 1.7.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-renderutil' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb-renderutil` -> 0
+0.3.9
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb-renderutil` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-renderutil` -> 0
+-L/usr/lib -lxcb-render-util -lxcb -lxcb-render
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-renderutil` -> 0
+-lxcb-render-util -lxcb -lxcb-render
+Run-time dependency xcb-renderutil found: YES 0.3.9
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-image' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb-image` -> 0
+0.4.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb-image` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-image` -> 0
+-L/usr/lib -lxcb-image -lxcb -lxcb-shm
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-image` -> 0
+-lxcb-image -lxcb -lxcb-shm
+Run-time dependency xcb-image found: YES 0.4.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xext' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xext` -> 0
+1.3.4
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xext` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xext` -> 0
+-L/usr/lib -lXext
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xext` -> 0
+-lXext
+Run-time dependency xext found: YES 1.3.4
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'pixman-1' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion pixman-1` -> 0
+0.40.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags pixman-1` -> 0
+-I/usr/include/pixman-1
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs pixman-1` -> 0
+-L/usr/lib -lpixman-1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs pixman-1` -> 0
+-lpixman-1
+Run-time dependency pixman-1 found: YES 0.40.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-render' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb-render` -> 0
+1.14
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb-render` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-render` -> 0
+-L/usr/lib -lxcb-render
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-render` -> 0
+-lxcb-render
+Run-time dependency xcb-render found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-damage' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb-damage` -> 0
+1.14
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb-damage` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-damage` -> 0
+-L/usr/lib -lxcb-damage
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-damage` -> 0
+-lxcb-damage
+Run-time dependency xcb-damage found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-randr' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb-randr` -> 0
+1.14
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb-randr` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-randr` -> 0
+-L/usr/lib -lxcb-randr
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-randr` -> 0
+-lxcb-randr
+Run-time dependency xcb-randr found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-sync' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb-sync` -> 0
+1.14
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb-sync` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-sync` -> 0
+-L/usr/lib -lxcb-sync
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-sync` -> 0
+-lxcb-sync
+Run-time dependency xcb-sync found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-composite' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb-composite` -> 0
+1.14
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb-composite` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-composite` -> 0
+-L/usr/lib -lxcb-composite
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-composite` -> 0
+-lxcb-composite
+Run-time dependency xcb-composite found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-shape' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb-shape` -> 0
+1.14
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb-shape` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-shape` -> 0
+-L/usr/lib -lxcb-shape
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-shape` -> 0
+-lxcb-shape
+Run-time dependency xcb-shape found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-xinerama' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb-xinerama` -> 0
+1.14
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb-xinerama` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-xinerama` -> 0
+-L/usr/lib -lxcb-xinerama
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-xinerama` -> 0
+-lxcb-xinerama
+Run-time dependency xcb-xinerama found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-xfixes' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb-xfixes` -> 0
+1.14
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb-xfixes` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-xfixes` -> 0
+-L/usr/lib -lxcb-xfixes
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-xfixes` -> 0
+-lxcb-xfixes
+Run-time dependency xcb-xfixes found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb-present' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb-present` -> 0
+1.14
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb-present` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-present` -> 0
+-L/usr/lib -lxcb-present
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb-present` -> 0
+-lxcb-present
+Run-time dependency xcb-present found: YES 1.14
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xcb' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xcb` -> 0
+1.14
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xcb` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb` -> 0
+-L/usr/lib -lxcb
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xcb` -> 0
+-lxcb
+Run-time dependency xcb found: YES 1.14
+Running compile:
+Working directory:  /home/arsonstan/Downloads/picom/build/meson-private/tmpnagitub0
+Command line:  cc /home/arsonstan/Downloads/picom/build/meson-private/tmpnagitub0/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=c11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("uthash.h")
+          #error "Header 'uthash.h' could not be found"
+         #endif
+        #else
+         #include <uthash.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "uthash.h" : YES 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libconfig' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libconfig` -> 0
+1.7.3
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libconfig` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libconfig` -> 0
+-L/usr/lib -lconfig
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libconfig` -> 0
+-lconfig
+Run-time dependency libconfig found: YES 1.7.3
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libpcre' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libpcre` -> 0
+8.45
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libpcre` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libpcre` -> 0
+-L/usr/lib -lpcre
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libpcre` -> 0
+-lpcre
+Run-time dependency libpcre found: YES 8.45
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gl' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion gl` -> 0
+1.2
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags gl` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gl` -> 0
+-L/usr/lib -lGL
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gl` -> 0
+-lGL
+Run-time dependency gl found: YES 1.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'dbus-1' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion dbus-1` -> 0
+1.12.20
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags dbus-1` -> 0
+-I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs dbus-1` -> 0
+-L/usr/lib -ldbus-1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs dbus-1` -> 0
+-ldbus-1
+Run-time dependency dbus-1 found: YES 1.12.20
+Program meson/install.sh found: YES (/bin/sh /home/arsonstan/Downloads/picom/meson/install.sh)
+Build targets in project: 1
+
+picom 7
+
+  Subprojects
+    test.h: YES
+
+Found ninja-1.10.2 at /usr/bin/ninja

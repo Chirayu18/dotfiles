@@ -1,0 +1,11 @@
+#!/bin/bash
+# Arbitrary but unique message id
+msgId="6901"
+
+percent=$1
+pactl set-sink-volume @DEFAULT_SINK@ +${percent}%
+#volume="$(pactl list sinks | grep "^\sVolume:" | awk 'END{print $5}' | sed 's/%//')"
+volume="$(amixer sget Master | awk 'END{print $5}'| sed  's/\[\([0-9]*\)%\]/\1/')"
+volumebar="$(echo $volume/2 | bc )"
+dunstify -a "changeVolume" -u low -r "$msgId" \
+    -h int:value:"$volumebar" "Volume: $volume%"

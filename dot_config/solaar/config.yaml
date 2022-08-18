@@ -1,0 +1,22 @@
+- 1.1.3
+- _NAME: G402 Gaming Mouse
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, smart-shift, thumb-scroll-mode, thumb-scroll-invert,
+    pointer_speed, dpi-sliding, speed-change, mouse-gestures, backlight, backlight-timed, fn-swap, reprogrammable-keys, persistent-remappable-keys, divert-keys,
+    disable-keyboard-keys, divert-crown, crown-smooth, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert,
+    gesture2-params]
+  _modelId: '000000000000'
+  _sensitive: {dpi: false, onboard_profiles: true, report_rate: ignore}
+  _unitId: '00000000'
+  dpi: 756
+  onboard_profiles: 2
+  report_rate: 1
+- _NAME: G402 Gaming Mouse
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, smart-shift, thumb-scroll-mode, thumb-scroll-invert,
+    pointer_speed, dpi-sliding, speed-change, mouse-gestures, backlight, backlight-timed, fn-swap, reprogrammable-keys, persistent-remappable-keys, divert-keys,
+    disable-keyboard-keys, divert-crown, crown-smooth, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert,
+    gesture2-params]
+  _modelId: '000000000000'
+  _unitId: '00000000'
+  dpi: 840
+  onboard_profiles: 1
+  report_rate: 1

@@ -1,0 +1,14 @@
+[2021-09-13 17:19:53.938] [sharedprocess] [info] Deleted from disk ms-python.vscode-pylance /home/arsonstan/.vscode/extensions/ms-python.vscode-pylance-2021.9.0
+[2021-09-13 17:19:59.390] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-09-13 17:19:59.392] [sharedprocess] [info] [logs cleanup]: Removing log folders '20210902T090102'
+[2021-09-13 17:19:59.483] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-09-13 17:20:19.391] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-09-13 17:20:19.392] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-09-13 17:20:19.394] [sharedprocess] [info] [storage cleanup]: Deleting storage folder 1631191028755.
+[2021-09-13 17:20:19.649] [sharedprocess] [info] Extensions is already requested to install ms-python.python
+[2021-09-13 17:20:22.826] [sharedprocess] [info] Downloaded extension: ms-python.python /home/arsonstan/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.9.1218897484
+[2021-09-13 17:20:24.697] [sharedprocess] [info] Extracted extension to /home/arsonstan/.vscode/extensions/.7fd0ddf9-76f4-453b-b006-d8c081c69d8c: ms-python.python
+[2021-09-13 17:20:24.799] [sharedprocess] [info] Renamed to /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1218897484
+[2021-09-13 17:20:24.806] [sharedprocess] [info] Extracting completed. ms-python.python
+[2021-09-13 17:20:25.107] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2021-09-13 17:20:29.391] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.

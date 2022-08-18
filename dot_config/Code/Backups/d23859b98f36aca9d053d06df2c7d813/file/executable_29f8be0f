@@ -1,0 +1,278 @@
+file:///home/arsonstan/Projects/Earthsr/earthsr/eigensolver.py {"mtime":1630558977101,"ctime":1630555751701,"size":3046,"etag":"37f76hl85358","orphaned":false,"typeId":""}
+import vars
+import numpy as np
+
+import vars
+class inputHandler:
+
+    def getInputFile(self,infil):
+        try:
+            file = open(infil,'r')
+        except FileNotFoundError:
+            print("Input file not found:",infil)
+        return file
+    
+    def inputFloatList(self,inputLine):
+        return list(map(float,inputLine.split()))
+
+    def inputIntList(self,inputLine):
+        return list(map(int,inputLine.split()))
+
+    def set_boolean(self,option):
+
+        if(option == 'y' or option=='Y'):
+            vars.iasc = True
+        elif(option == 'n' or option == 'N'):
+            vars.iasc = False
+        else:
+            print("Incorrect value, Using default value: False")
+            vars.iasc = False
+
+"""
+Get input File
+"""
+infil = input("input file:")
+inputHandle = inputHandler()
+input_file = inputHandle.getInputFile()
+"""
+Get all user preffered options
+"""
+iasc = inputHandle.set_boolean(input("Write out ascii files(Y/n) ?:"))
+nusrper = int(input("No. of period samples at which to ensure a solution:"))
+
+usrper = np.array([])
+usrom = np.array([])
+
+if(nusrper > 0):
+    inputLine = input("Enter period samples (in ascending order) :")
+    usrper = np.array(inputHandle.inputFloatList(inputLine))
+    usrom = 2*np.pi/usrper
+#    print('usrom is ',usrom) --------- Not required but was there in the original program
+
+"""
+Open output files in write mode
+"""
+if(iasc):
+   disp_file = open('disp.'+infil, 'w')
+   eigen_file = open('eigen.'+infil,'w')
+   
+"""
+    Read Files
+    Input format:
+    1st line : n0 , iefl, tref
+    n0 lines : d0 , vp0, vs0 , ro0, qb0, qa0
+    1 line   : jcom
+    1 line   : infil
+    1 line   : c1, c2, nbran1,nbran2
+    1 line   : nsrc, nom, df, fo
+    1 line   : sdep array elements 
+    1 line   : rdep
+
+
+    n0 is number of layers
+    iefl flattenting control variable  
+    tref reference period for material dispersion correction
+"""
+   
+inputLine = input_file.readline()
+# (GOTO TAG 777):TODO:Original Program checked if EOF is reached if yes it closes all
+#  open files, deallocates memory and outputs the output file names
+common.n0,iefl,tref = list(map(int, inputLine.split()))
+omref=0.0
+initialise(parameters.lyrs) # initialise all arrays
+if(tref != 0):
+    omref=2*np.pi/tref 
+try:
+    for i in range(0,common.n0):
+        inputLine = input_file.readline()
+        common.d0[i] , common.vp0[i], common.vs0[i], \
+            common.ro0[i],common.qb0[i],common.qa0[i]= list(map(float, inputLine.split()))
+        if(common.qb0[i] != 0):
+            common.qb0[i] = 1.0/common.qb0[i]
+        if(common.qa0[i] != 0):
+            common.qa0[i] = 1.0/common.qa0[i]
+    jcom = int(input_file.readline())
+    # if jcom is 0 (GOTO TAG 777)
+    if jcom==1:
+        print("Rayleigh wave")
+    else:
+        jcom = 2
+        print("Love Wave")
+    infil = input_file.readline()
+except FileNotFoundError:
+    Errorhandling.handleError.fileNotExist()
+except ValueError:
+    Errorhandling.handleError.fileWrongFormat()
+iouf1 = open(infil , 'w')  
+inputLine = input_file.readline()
+c1, c2, nbran1, nbran2 = list(map(int,inputLine.split()))
+inputLine = input_file.readline()
+nsrce, nom, df,fo= list(map(float,inputLine.split()))
+nsrce = int(nsrce)
+nom = int(nom)
+common.n=common.n0
+
+
+
+"""
+Copy Array from x0 to x (OPTIMISE)
+"""
+for i in range(0,common.n):
+    common.d[i]=common.d0[i]    
+    common.ro[i]=common.ro0[i]    
+    common.vps[i]=common.vp0[i]    
+    common.vss[i]=common.vs0[i]    
+    common.qa[i]=common.qa0[i]    
+    common.qb[i]=common.qb0[i]    
+
+"""
+Initialise sdep upto number provided in nsrce and sort it
+"""
+inputLine = input_file.readline()
+if(nsrce < parameters.lsd):
+    common.sdep = list(map(float,inputLine.split()))[0:nsrce]
+elif(nsrce == parameters.lsd):
+    common.sdep = list(map(float,inputLine.split()))
+else:
+    Errorhandling.handleError.fileWrongFormat()
+common.sdep=sorted(common.sdep[0:nsrce]) + common.sdep[nsrce:] # Original code called a 
+# function 'shell' in earthsubs.f which sorted the array by quicksort method 
+# by choosing midpoint as pivot (OPTIMISE)
+rdep = float(input_file.readline())
+rsplit(rdep)
+split(rdep)
+# Write ASCII files
+if( iasc  ):
+    # Write to disp. file
+    disp_file.write('3'  + ' no. of model parameters for part. der.\n')
+    disp_file.write(str(common.n) + 'no. of layers in model\n')
+    for i in range(0,common.n):
+        strout="{:7.3f}"+"{:10.6f}"*3
+        disp_file.write(strout.format(common.d[i],common.ro[i],\
+            common.vps[i],common.vss[i]) + '\n')
+    # Write to eigen. file
+    eigen_file.write("eigenfunction file from earthsr\n")
+    eigen_file.write(str(common.n) + 'no. of layers in model\n')
+    depth=[]
+    depth.append(0)
+    for i in range(0,common.n):
+        depth.append(depth[-1]+ common.d[i])
+        strout== "{:8.3f}" * 4
+        eigen_file.write(strout.format(depth[i],common.vss[i],common.ro[i],common.vps[i]) + '\n')
+earthsubs.flat(jcom,iefl) #Flatten the model  
+if ( iasc ):
+    # Write the flattened model
+    disp_file.write(' flattened model \n')
+    for i in range(0,common.n):
+        strout="{:7.3f}"+"{:10.6f}"*3
+        disp_file.write(strout.format(common.d[i],common.ro[i],\
+            common.vps[i],common.vss[i]) + '\n')
+
+"""
+Calculating common.cmn
+cm = max(c1,  min(0.60 * vss[1st non ocean layer] , vps[1st layer]) )
+"""
+common.noc = 0
+if (common.vss[0] <= 0): #If model has one layer ocean
+    common.noc = 1
+cmin = 0.60 * common.vss[common.noc]
+cmin = min(cmin , common.vps[0])
+common.cmn = max( c1 , cmin)
+
+"""
+Squaring vss and vps
+"""
+common.vps = np.square(common.vps)
+common.vss = np.square(common.vss)
+"""
+Applying the qcor function
+nh,nom : number of frequencies
+df : Frequency increment
+dom: Frequency increment in radians
+om = f0 + (nh-1)*dom (Maximum frequency)
+omax = f0 + nh*dom
+omref: Reference frequency(2*pi/tref) of material dispersion correction
+"""
+dom = 2*np.pi*df
+nh = nom
+omax = 2*np.pi*fo + nh * dom
+om = omax - dom
+qcor(om , omref)
+
+common.cmx=cmaximum(c2)
+
+"""
+Calculate nbran,nbran2
+"""
+kei,dei = earthsubs.detk(common.cmx , om, jcom)
+if (nbran2 < 0 or nbran2 > kei):
+    nbran2 = kei - 1
+nbran = max((nbran2 - nbran1 + 1),1)
+"""
+Write to files
+"""
+if(iasc):
+    disp_file.write('{:3}'.format(nbran) + "modes listed in file\n")
+    eigen_file.write('{:3}'.format(nbran) + " modes listed in file\n")
+iouf1.write(str(nsrce) + str(nom) + str(df) + str(fo) + str(jcom)+ str(nbran) +'\n') # Original had f0 instead of f0
+for i in range (0,nsrce):
+    iouf1.write(str(common.sdep[i]))
+iouf1.write('\n')
+###### Computation Heavy Task ######
+
+for nb in range(nbran1,nbran2+1): 
+    common.ctry = 0.5*(common.cmn + common.cmx)
+    common.ceps = 0.5*(common.cmx - common.ctry)
+    common.cm = 0
+    print(nb)
+    """
+    Write to files
+    """
+    iouf1.write(str(nb) +'\n')
+    if(iasc):
+        eigen_file.write('{:3}'.format(nb)+" mode number\n")
+        per_mall = 0
+        per_mint = 0
+        
+        for i in range(1,nh+1):
+            om = omax - i*dom
+            qcor(om,omref)
+            common.cmx = cmaximum(c2)
+            nev = True#earthsubs.cex(om,nb,jcom)
+            period = 2*np.pi/om
+            if(nev):
+                per_mall += 1
+                if( isInteger(period)):
+                    per_mint += 1
+        eigen_file.write("{:3} {:4}      period samples this\
+            mode (integral, all)\n".format(per_mint, per_mall))
+        
+    iusr = 0
+    omuse = 0
+    for i in range(1,nh+1):
+        om = omax - i*dom
+        if(nusrper>0 and (iusr+1) <= nusrper):
+            if(usrom[iusr]>om):
+                print("Found gap at", 2*np.pi/om, "for", 2*np.pi/usrom[iusr],'\n')
+                omuse = usrom[iusr]
+                iusr += 1
+            else:
+                omuse = om
+        else:
+            omuse = om
+                
+        qcor(omuse,omref)
+        common.cmx = cmaximum(c2)
+        nev = earthsubs.cex(omuse,nb,jcom)
+        if(not nev):
+            break
+        intrp(omuse,dom,jcom)
+    if(iasc):
+        disp_file.write(" ******** mode number: {:3d} done. ********".format(nb)+'\n')
+    iouf1.write(str(istop)+'\n')
+    
+input_file.close()
+iouf1.close()
+disp_file.close()
+eigen_file.close()
+

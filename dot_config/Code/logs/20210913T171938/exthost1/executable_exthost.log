@@ -1,0 +1,50 @@
+[2021-09-13 17:19:51.661] [exthost] [info] extension host started
+[2021-09-13 17:19:51.661] [exthost] [info] Skipping acquiring lock for /home/arsonstan/.config/Code/User/workspaceStorage/d23859b98f36aca9d053d06df2c7d813.
+[2021-09-13 17:19:51.698] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-09-13 17:19:51.699] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-09-13 17:19:51.812] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.vscode-pylance","_lower":"ms-python.vscode-pylance"},"activationEvent":"onLanguage:python"}
+[2021-09-13 17:19:51.812] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension
+[2021-09-13 17:19:52.624] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter {"startup":false,"extensionId":{"value":"ms-toolsai.jupyter","_lower":"ms-toolsai.jupyter"},"activationEvent":"onLanguage:python"}
+[2021-09-13 17:19:52.624] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/arsonstan/.vscode/extensions/ms-toolsai.jupyter-2021.8.1236758218/out/client/extension
+[2021-09-13 17:19:53.295] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-09-13 17:19:53.295] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-09-13 17:19:53.329] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-13 17:19:53.329] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2021-09-13 17:19:53.415] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2021-09-13 17:19:53.415] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/arsonstan/.vscode/extensions/github.vscode-pull-request-github-0.29.2/dist/extension
+[2021-09-13 17:19:53.524] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2021-09-13 17:19:53.524] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/arsonstan/.vscode/extensions/vscodevim.vim-1.21.7/out/extension
+[2021-09-13 17:19:53.807] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-13 17:19:53.807] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github/dist/extension.js
+[2021-09-13 17:19:54.039] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-09-13 17:19:54.039] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-09-13 17:19:56.413] [exthost] [info] eager extensions activated
+[2021-09-13 17:19:56.467] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-09-13 17:19:56.467] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-09-13 17:19:56.759] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-09-13 17:19:56.759] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-09-13 17:19:57.023] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-09-13 17:19:57.023] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-09-13 17:19:57.281] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance {"startup":false,"extensionId":{"value":"ms-python.vscode-pylance","_lower":"ms-python.vscode-pylance"},"activationEvent":"onLanguage:python"}
+[2021-09-13 17:19:57.282] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/arsonstan/.vscode/extensions/ms-python.vscode-pylance-2021.9.1/dist/extension.bundle.js
+[2021-09-13 17:20:36.106] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-13 17:20:36.106] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-13 17:44:29.689] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-09-13 17:44:30.171] [exthost] [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 't'
+    |     property '_readableState' -> object with constructor 'x'
+    |     property 'pipes' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 't.ConsoleForElectron'
+    --- property 'parent' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /home/arsonstan/.vscode/extensions/vscodevim.vim-1.21.7/src/register/register.ts:357:16
+    at runMicrotasks (<anonymous>)
+    at process.async (internal/process/task_queues.js:93:5)
+    at Object.e.deactivate (/home/arsonstan/.vscode/extensions/vscodevim.vim-1.21.7/extension.ts:36:8)
+    at async Promise.all (index 12)
+    at v.deactivateAll (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10026)
+[2021-09-13 17:44:30.704] [exthost] [info] exiting with code 0

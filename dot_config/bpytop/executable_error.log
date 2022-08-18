@@ -1,0 +1,156 @@
+14/09/21 (15:01:45) | ERROR: Input thread failed with exception: (5, 'Input/output error', None, None, None)
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 985, in _get_key
+    input_key = ""
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 778, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error', None, None, None)
+14/09/21 (15:02:04) | ERROR: Input thread failed with exception: (5, 'Input/output error', None, None, None)
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 985, in _get_key
+    input_key = ""
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 778, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error', None, None, None)
+14/09/21 (15:02:04) | ERROR: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5657, in main
+    run()
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5650, in run
+    if Key.input_wait(Timer.left()):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 911, in input_wait
+    cls.new.wait(sec if sec > 0 else 0.0)
+  File "/opt/pypy3/lib-python/3/threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "/opt/pypy3/lib-python/3/threading.py", line 300, in wait
+    gotit = waiter.acquire(True, timeout)
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5218, in now_awake
+    Draw.now(Term.alt_screen, Term.clear, Term.hide_cursor, Term.mouse_on, Term.title("BpyTOP"))
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 1019, in now
+    print(*args, sep="", end="", flush=True)
+OSError: [Errno 5] Input/output error
+14/09/21 (15:02:13) | ERROR: Input thread failed with exception: (5, 'Input/output error', None, None, None)
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 985, in _get_key
+    input_key = ""
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 778, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error', None, None, None)
+14/09/21 (15:02:34) | ERROR: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5657, in main
+    run()
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5650, in run
+    if Key.input_wait(Timer.left()):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 911, in input_wait
+    cls.new.wait(sec if sec > 0 else 0.0)
+  File "/opt/pypy3/lib-python/3/threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "/opt/pypy3/lib-python/3/threading.py", line 300, in wait
+    gotit = waiter.acquire(True, timeout)
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5218, in now_awake
+    Draw.now(Term.alt_screen, Term.clear, Term.hide_cursor, Term.mouse_on, Term.title("BpyTOP"))
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 1019, in now
+    print(*args, sep="", end="", flush=True)
+OSError: [Errno 5] Input/output error
+14/09/21 (15:02:34) | ERROR: Input thread failed with exception: (5, 'Input/output error', None, None, None)
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 985, in _get_key
+    input_key = ""
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 778, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error', None, None, None)
+14/09/21 (15:10:16) | ERROR: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5657, in main
+    run()
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5650, in run
+    if Key.input_wait(Timer.left()):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 911, in input_wait
+    cls.new.wait(sec if sec > 0 else 0.0)
+  File "/opt/pypy3/lib-python/3/threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "/opt/pypy3/lib-python/3/threading.py", line 300, in wait
+    gotit = waiter.acquire(True, timeout)
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5218, in now_awake
+    Draw.now(Term.alt_screen, Term.clear, Term.hide_cursor, Term.mouse_on, Term.title("BpyTOP"))
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 1019, in now
+    print(*args, sep="", end="", flush=True)
+OSError: [Errno 5] Input/output error
+14/09/21 (15:10:16) | ERROR: Input thread failed with exception: (5, 'Input/output error', None, None, None)
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 985, in _get_key
+    input_key = ""
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 778, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error', None, None, None)
+14/09/21 (15:11:01) | ERROR: Input thread failed with exception: (5, 'Input/output error', None, None, None)
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 985, in _get_key
+    input_key = ""
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 778, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error', None, None, None)
+14/09/21 (15:11:01) | ERROR: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5657, in main
+    run()
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5650, in run
+    if Key.input_wait(Timer.left()):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 911, in input_wait
+    cls.new.wait(sec if sec > 0 else 0.0)
+  File "/opt/pypy3/lib-python/3/threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "/opt/pypy3/lib-python/3/threading.py", line 300, in wait
+    gotit = waiter.acquire(True, timeout)
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5218, in now_awake
+    Draw.now(Term.alt_screen, Term.clear, Term.hide_cursor, Term.mouse_on, Term.title("BpyTOP"))
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5228, in quit_sigint
+    clean_quit()
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5241, in clean_quit
+    Draw.now(Term.clear, Term.normal_screen, Term.show_cursor, Term.mouse_off, Term.mouse_direct_off, Term.title())
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 1019, in now
+    print(*args, sep="", end="", flush=True)
+OSError: [Errno 5] Input/output error
+14/09/21 (15:11:13) | ERROR: Input thread failed with exception: (5, 'Input/output error', None, None, None)
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 985, in _get_key
+    input_key = ""
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 778, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error', None, None, None)
+14/09/21 (15:11:13) | ERROR: [Errno 5] Input/output error
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5657, in main
+    run()
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5650, in run
+    if Key.input_wait(Timer.left()):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 911, in input_wait
+    cls.new.wait(sec if sec > 0 else 0.0)
+  File "/opt/pypy3/lib-python/3/threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "/opt/pypy3/lib-python/3/threading.py", line 300, in wait
+    gotit = waiter.acquire(True, timeout)
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5218, in now_awake
+    Draw.now(Term.alt_screen, Term.clear, Term.hide_cursor, Term.mouse_on, Term.title("BpyTOP"))
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5228, in quit_sigint
+    clean_quit()
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 5241, in clean_quit
+    Draw.now(Term.clear, Term.normal_screen, Term.show_cursor, Term.mouse_off, Term.mouse_direct_off, Term.title())
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 1019, in now
+    print(*args, sep="", end="", flush=True)
+OSError: [Errno 5] Input/output error
+29/09/21 (09:39:05) | ERROR: Input thread failed with exception: (5, 'Input/output error', None, None, None)
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 985, in _get_key
+    input_key = ""
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 778, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error', None, None, None)
+29/09/21 (09:39:44) | ERROR: Input thread failed with exception: (5, 'Input/output error', None, None, None)
+Traceback (most recent call last):
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 985, in _get_key
+    input_key = ""
+  File "/home/arsonstan/.local/lib/pypy3.7/site-packages/bpytop.py", line 778, in __exit__
+    termios.tcsetattr(self.stream, termios.TCSANOW, self.original_stty)
+termios.error: (5, 'Input/output error', None, None, None)

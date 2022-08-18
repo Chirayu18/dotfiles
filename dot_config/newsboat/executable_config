@@ -1,0 +1,22 @@
+auto-reload yes
+browser "mpv --script-opts=ytdl_hook-ytdl_path=yt-dlp"
+reload-time 30
+show-keymap-hint no
+swap-title-and-hints no 
+feed-sort-order lastupdated
+
+bind-key ; cmdline
+bind-key SPACE next-unread
+bind-key j down
+bind-key k up
+bind-key l open
+bind-key h quit
+bind-key ^N next-unread
+bind-key ^P prev-unread
+bind-key ] next feedlist
+bind-key [ prev feedlist
+bind-key ] next-feed articlelist
+bind-key [ prev-feed articlelist
+bind-key o open-in-browser-and-mark-read
+bind-key O open-in-browser
+bind-key s toggle-show-read-feeds

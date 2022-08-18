@@ -1,0 +1,29 @@
+#!/bin/sh
+
+#Start scratchterms if not running
+
+if [ "$(ps ax | grep alacritty | grep -w python)" = "" ]
+then
+	alacritty --config-file="/home/arsonstan/scripts/scratchpad.yml" --class python -e python -q &
+fi
+
+if [ "$(ps ax | grep alacritty | grep -w scratchterm)" = "" ]
+then
+	alacritty --config-file="/home/arsonstan/scripts/scratchpad.yml" --class scratchterm -e tmux -u a -t TPad & cat ~/.cache/wal/sequences 2>/dev/null & 
+fi
+if [ "$(ps ax | grep alacritty | grep -w terminalbrowser)" = "" ]
+then
+	alacritty --config-file="/home/arsonstan/scripts/scratchpad.yml" --class  terminalbrowser  -e ~/scripts/terminalbrowser.sh &
+fi
+
+sleep 1
+wal -wq
+
+#Dont apply wal to these
+kill $(ps ax | grep alacritty | grep -w explorer| awk 'END{print $1}')
+kill $(ps ax | grep alacritty | grep -w youtube| awk 'END{print $1}')
+
+	export EDITOR="nvr"
+	alacritty --config-file="/home/arsonstan/scripts/scratchpad2.yml" --class  explorer  -e ranger &
+
+	alacritty --config-file="/home/arsonstan/scripts/scratchpad.yml" --class  youtube  -e newsboat -u ~/.config/youtube &

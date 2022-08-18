@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ $1 -eq 1 ]; then
+	wal -wq
+fi
+echo coloredterminals=$1 > /home/arsonstan/scripts/terminalcolor ;

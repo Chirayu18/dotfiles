@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/arsonstan/Pictures/Wallpapers/mountains/0.jpg' 

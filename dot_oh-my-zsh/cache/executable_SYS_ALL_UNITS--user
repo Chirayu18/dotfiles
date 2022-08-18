@@ -1,0 +1,4 @@
+_sys_all_units=( ${(Q)"${(z)$(<<\EO:_sys_all_units
+'pulseaudio.service' 'pulseaudio.socket'
+EO:_sys_all_units
+)}"} )

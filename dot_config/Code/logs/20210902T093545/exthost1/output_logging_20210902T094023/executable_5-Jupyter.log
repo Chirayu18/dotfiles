@@ -1,0 +1,15 @@
+User belongs to experiment group 'jupyterTest'
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+Info 2021-09-02 09:40:23: ZMQ install verified.
+Info 2021-09-02 09:40:23: id is a4dfbd93-20fb-4b14-8973-f8ff5943c87e
+Info 2021-09-02 09:41:04: Shutting down notebooks for d4be271b-5cb2-428c-851b-bc08fb934b32
+Info 2021-09-02 09:41:04: Disposing HostJupyterExecution cc06e16e-4c6e-4e51-a63b-fd4f8d1853b8
+Info 2021-09-02 09:41:04: Disposing super HostJupyterExecution cc06e16e-4c6e-4e51-a63b-fd4f8d1853b8
+Info 2021-09-02 09:41:04: Disposing HostJupyterExecution cc06e16e-4c6e-4e51-a63b-fd4f8d1853b8
+Info 2021-09-02 09:41:04: Finished disposing HostJupyterExecution  cc06e16e-4c6e-4e51-a63b-fd4f8d1853b8
+Info 2021-09-02 09:41:04: Disposing HostJupyterExecution cc06e16e-4c6e-4e51-a63b-fd4f8d1853b8
+Info 2021-09-02 09:41:04: Finished disposing HostJupyterExecution  cc06e16e-4c6e-4e51-a63b-fd4f8d1853b8
+Info 2021-09-02 09:41:04: Getting live share API during dispose HostJupyterExecution cc06e16e-4c6e-4e51-a63b-fd4f8d1853b8
+Info 2021-09-02 09:41:04: Detaching HostJupyterExecution cc06e16e-4c6e-4e51-a63b-fd4f8d1853b8
+Info 2021-09-02 09:41:04: Cleaning up server cache cc06e16e-4c6e-4e51-a63b-fd4f8d1853b8
+Info 2021-09-02 09:41:04: Finished disposing HostJupyterExecution  cc06e16e-4c6e-4e51-a63b-fd4f8d1853b8

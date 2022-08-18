@@ -1,0 +1,80 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.005  000.005: --- NVIM STARTING ---
+000.224  000.219: locale set
+000.474  000.250: inits 1
+000.484  000.010: window checked
+000.486  000.002: parsing arguments
+002.287  001.801: init lua interpreter
+002.415  000.128: expanding arguments
+002.438  000.023: inits 2
+002.758  000.320: init highlight
+002.759  000.001: waiting for UI
+003.413  000.654: done waiting for UI
+003.423  000.010: init screen for UI
+003.441  000.018: init default mappings
+003.470  000.029: init default autocommands
+004.261  000.047  000.047: sourcing /usr/share/nvim/runtime/ftplugin.vim
+004.385  000.023  000.023: sourcing /usr/share/nvim/runtime/indent.vim
+004.449  000.011  000.011: sourcing /usr/share/nvim/archlinux.vim
+004.452  000.030  000.019: sourcing /etc/xdg/nvim/sysinit.vim
+047.883  007.551  007.551: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/onedark.nvim/colors/onedark.lua
+074.246  069.777  062.226: sourcing /home/arsonstan/.config/nvim/init.lua
+074.263  000.917: sourcing vimrc file(s)
+074.547  000.088  000.088: sourcing /usr/share/nvim/runtime/filetype.lua
+080.349  000.016  000.016: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/LuaSnip/ftdetect/snippets.vim
+080.553  000.012  000.012: sourcing /usr/share/vim/vimfiles/ftdetect/PKGBUILD.vim
+080.583  000.016  000.016: sourcing /usr/share/vim/vimfiles/ftdetect/meson.vim
+080.816  006.248  006.204: sourcing /usr/share/nvim/runtime/filetype.vim
+081.064  000.063  000.063: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+081.173  000.283  000.221: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+082.289  000.349  000.349: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+082.317  000.009  000.009: sourcing /usr/share/nvim/runtime/plugin/health.vim
+082.517  000.187  000.187: sourcing /usr/share/nvim/runtime/plugin/man.vim
+083.000  000.179  000.179: sourcing /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+083.080  000.548  000.369: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+083.199  000.105  000.105: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+083.575  000.362  000.362: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+083.732  000.009  000.009: sourcing /home/arsonstan/.local/share/nvim/rplugin.vim
+083.741  000.139  000.131: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+083.845  000.087  000.087: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+083.883  000.018  000.018: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+084.027  000.115  000.115: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+084.110  000.060  000.060: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+084.143  000.013  000.013: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+084.313  000.154  000.154: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+084.830  000.440  000.440: sourcing /usr/share/vim/vimfiles/plugin/fzf.vim
+085.455  000.544  000.544: sourcing /home/arsonstan/.config/nvim/plugin/packer_compiled.lua
+085.695  001.680: loading rtp plugins
+086.320  000.348  000.348: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/LuaSnip/plugin/luasnip.vim
+088.756  002.077  002.077: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/nvim-cmp/plugin/cmp.lua
+089.010  000.133  000.133: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer/plugin/nvim-lsp-installer.vim
+089.210  000.077  000.077: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/nvim-lspconfig/plugin/lspconfig.vim
+090.315  000.951  000.951: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/nvim-treesitter/plugin/nvim-treesitter.lua
+090.444  000.040  000.040: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/nvim-web-devicons/plugin/nvim-web-devicons.vim
+090.601  000.029  000.029: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/plenary.nvim/plugin/plenary.vim
+091.042  000.331  000.331: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/telescope.nvim/plugin/telescope.lua
+091.215  000.086  000.086: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/trouble.nvim/plugin/trouble.vim
+091.401  001.636: loading packages
+092.232  000.584  000.584: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/cmp-buffer/after/plugin/cmp_buffer.lua
+092.546  000.244  000.244: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/cmp-cmdline/after/plugin/cmp_cmdline.lua
+092.731  000.116  000.116: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/cmp-emoji/after/plugin/cmp_emoji.lua
+103.849  011.059  011.059: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/cmp-latex-symbols/after/plugin/cmp_latex.lua
+104.277  000.302  000.302: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp/after/plugin/cmp_nvim_lsp.lua
+104.651  000.313  000.313: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/cmp-path/after/plugin/cmp_path.lua
+105.180  000.466  000.466: sourcing /home/arsonstan/.local/share/nvim/site/pack/packer/start/cmp_luasnip/after/plugin/cmp_luasnip.lua
+105.185  000.701: loading after plugins
+105.198  000.013: inits 3
+106.859  001.661: reading ShaDa
+110.227  003.368: opening buffers
+110.262  000.035: BufEnter autocommands
+110.264  000.002: editing files in windows
+110.335  000.072: VimEnter autocommands
+110.338  000.003: UIEnter autocommands
+110.339  000.001: before starting main loop
+110.596  000.257: first screen update
+110.598  000.002: --- NVIM STARTED ---

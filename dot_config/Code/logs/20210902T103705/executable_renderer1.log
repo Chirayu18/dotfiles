@@ -1,0 +1,15 @@
+[2021-09-02 11:03:49.237] [renderer1] [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+[2021-09-02 12:56:09.261] [renderer1] [error] spawn linux ENOENT: Error: spawn linux ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+    at onErrorNT (internal/child_process.js:465:16)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-09-02 14:29:57.444] [renderer1] [error] Cannot read property 'items' of undefined: TypeError: Cannot read property 'items' of undefined
+	at completionLengthMeasure (/home/arsonstan/.vscode/extensions/ms-python.python-2021.8.1159798656/out/client/extension.js:59:198753)
+	at p (/home/arsonstan/.vscode/extensions/ms-python.python-2021.8.1159798656/out/client/extension.js:59:201417)
+	at async z.provideCompletionItems (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:175170)
+[2021-09-03 02:19:15.703] [renderer1] [error] command 'type' already exists: Error: command 'type' already exists
+    at _.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:107908)
+    at Object.registerCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:20792)
+    at overrideCommand (/home/arsonstan/.vscode/extensions/vscodevim.vim-1.21.7/extensionBase.ts:569:38)
+    at t.activate (/home/arsonstan/.vscode/extensions/vscodevim.vim-1.21.7/extensionBase.ts:362:3)
+[2021-09-03 02:19:15.704] [renderer1] [error] ENOENT: no such file or directory, open '/home/arsonstan/.config/Code/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/arsonstan/.config/Code/User/globalStorage/vscodevim.vim/.registers'

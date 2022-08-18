@@ -1,0 +1,2 @@
+xrandr --output eDP1 --pos 1920x0
+export PATH=$HOME/.local/bin:/usr/local/bin:$HOME/scripts/:$HOME/Games/:$PATH

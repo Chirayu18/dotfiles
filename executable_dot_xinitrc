@@ -1,0 +1,21 @@
+#!/bin/sh
+xmodmap /home/arsonstan/.Xmodmap
+
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+
+#Fix for GTK apps
+dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+
+xrandr --auto
+xrandr --output eDP1 --left-of HDMI-0
+source ~/scripts/display.cfg
+
+for i in $disabled_displays
+do
+	xrandr --output $i --off
+done
+
+#if [ $(cat ~/.hdmi) -eq 0 ] ; then xrandr --output HDMI-0 --off ; fi
+wal -R
+#export PATH=$HOME/.local/bin:/usr/local/bin:$HOME/scripts/:$HOME/Games/:$PATH
+exec i3

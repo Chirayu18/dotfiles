@@ -1,0 +1,15 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/usr/local/bin/picom
+/usr/local/bin/picom-trans
+/usr/local/share/applications/compton.desktop
+/usr/local/share/applications/picom.desktop
+/usr/local/share/icons/hicolor/48x48/apps/compton.png
+/usr/local/share/icons/hicolor/scalable/apps/compton.svg
+/usr/local/share/icons/hicolor/scalable/apps
+/usr/local/share/icons/hicolor/scalable
+/usr/local/share/icons/hicolor/48x48/apps
+/usr/local/share/icons/hicolor/48x48
+/usr/local/share/icons/hicolor
+/usr/local/share/icons
+/usr/local/share/applications

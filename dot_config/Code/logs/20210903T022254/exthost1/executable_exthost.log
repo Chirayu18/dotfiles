@@ -1,0 +1,457 @@
+[2021-09-03 02:22:58.501] [exthost] [info] extension host started
+[2021-09-03 02:22:58.501] [exthost] [info] Skipping acquiring lock for /home/arsonstan/.config/Code/User/workspaceStorage/073e7c9ceaa5d429d16454c5cc210f9a.
+[2021-09-03 02:22:58.570] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-09-03 02:22:58.571] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-09-03 02:22:58.577] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-03 02:22:58.578] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-09-03 02:22:58.579] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-03 02:22:58.579] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-09-03 02:22:58.589] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2021-09-03 02:22:58.589] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-09-03 02:22:58.599] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-09-03 02:22:58.599] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-09-03 02:22:58.604] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-03 02:22:58.604] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2021-09-03 02:22:58.620] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github {"startup":true,"extensionId":{"value":"GitHub.vscode-pull-request-github","_lower":"github.vscode-pull-request-github"},"activationEvent":"*"}
+[2021-09-03 02:22:58.620] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/arsonstan/.vscode/extensions/github.vscode-pull-request-github-0.29.2/dist/extension
+[2021-09-03 02:22:58.632] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2021-09-03 02:22:58.632] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/arsonstan/.vscode/extensions/vscodevim.vim-1.21.7/out/extension
+[2021-09-03 02:22:59.002] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-03 02:22:59.003] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github/dist/extension.js
+[2021-09-03 02:22:59.005] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-09-03 02:22:59.005] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-09-03 02:22:59.048] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-09-03 02:22:59.049] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-09-03 02:22:59.169] [exthost] [info] eager extensions activated
+[2021-09-03 02:22:59.201] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-09-03 02:22:59.201] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-09-03 02:22:59.205] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-09-03 02:22:59.205] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-09-03 02:23:57.945] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.vscode-pylance","_lower":"ms-python.vscode-pylance"},"activationEvent":"onLanguage:python"}
+[2021-09-03 02:23:57.945] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension
+[2021-09-03 02:23:58.377] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter {"startup":false,"extensionId":{"value":"ms-toolsai.jupyter","_lower":"ms-toolsai.jupyter"},"activationEvent":"onLanguage:python"}
+[2021-09-03 02:23:58.377] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/arsonstan/.vscode/extensions/ms-toolsai.jupyter-2021.8.1236758218/out/client/extension
+[2021-09-03 02:23:59.575] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance {"startup":false,"extensionId":{"value":"ms-python.vscode-pylance","_lower":"ms-python.vscode-pylance"},"activationEvent":"onLanguage:python"}
+[2021-09-03 02:23:59.575] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/arsonstan/.vscode/extensions/ms-python.vscode-pylance-2021.9.0/dist/extension.bundle.js
+[2021-09-03 02:24:01.324] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:01.324] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:24:03.468] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:03.468] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:24:08.511] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:08.517] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:24:08.517] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:08.517] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:24:08.555] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:08.555] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:24:14.713] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:14.715] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:24:14.751] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:14.751] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:24:14.793] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:14.793] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:24:19.047] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:19.047] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:24:20.242] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:20.242] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:24:45.909] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:45.909] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:24:45.918] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:45.918] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:24:46.451] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:46.452] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:24:48.562] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:24:48.567] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:25:45.231] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:25:45.231] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:25:47.271] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:25:47.271] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:25:48.054] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:25:48.054] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:114543
+    at z.resolveCompletionItem (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:175887)
+[2021-09-03 02:25:49.227] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:25:49.227] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:25:49.240] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:25:49.240] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:25:52.825] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:25:52.825] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:25:56.783] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:25:56.783] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:25:59.297] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:25:59.298] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:26:08.488] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:08.488] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:26:11.782] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:11.782] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at runNextTicks (internal/process/task_queues.js:58:5)
+    at processImmediate (internal/timers.js:434:9)
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:26:17.512] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:17.512] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:26:19.628] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:19.628] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:26:33.247] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:33.247] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:26:45.250] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:45.250] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:26:45.835] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:45.835] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:26:55.263] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:55.263] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:55.345] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:55.345] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:55.465] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:55.465] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:55.841] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:55.841] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:55.900] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:55.900] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:55.924] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:55.924] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:56.190] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:56.190] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:56.636] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:56.636] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:56.675] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:56.675] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:57.203] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:57.204] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:57.248] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:57.248] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:57.341] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:57.341] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:57.439] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:57.439] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:57.521] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:57.521] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:26:57.642] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:26:57.642] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:30:09.513] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:30:09.514] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:30:19.017] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:30:19.017] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:33:20.202] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2021-09-03 02:33:20.203] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-09-03 02:33:20.220] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
+[2021-09-03 02:33:20.220] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/npm/dist/npmMain
+[2021-09-03 02:38:17.128] [exthost] [warning] TextEditor is closed/disposed
+[2021-09-03 02:38:17.128] [exthost] [warning] TextEditor is closed/disposed
+[2021-09-03 02:38:17.146] [exthost] [warning] {"name":"DISPOSED","message":"TextEditor(vs.editor.ICodeEditor:4,$model12) has been disposed"}
+[2021-09-03 02:50:57.762] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:50:57.762] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:51:33.708] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:51:33.708] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:51:38.063] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:51:38.063] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:54:17.686] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:54:17.686] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 02:54:21.971] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:54:21.971] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:54:22.003] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:54:22.003] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 02:54:24.948] [exthost] [warning] TextEditor is closed/disposed
+[2021-09-03 02:54:24.948] [exthost] [warning] TextEditor is closed/disposed
+[2021-09-03 02:54:35.447] [exthost] [warning] TextEditor is closed/disposed
+[2021-09-03 02:54:35.447] [exthost] [warning] TextEditor is closed/disposed
+[2021-09-03 02:54:35.478] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 02:54:35.479] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:119981
+    at c.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:161482)
+[2021-09-03 02:54:35.483] [exthost] [warning] {"name":"DISPOSED","message":"TextEditor(vs.editor.ICodeEditor:1,$model30) has been disposed"}
+[2021-09-03 03:00:14.035] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 03:00:14.035] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 03:00:18.126] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 03:00:18.126] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 03:00:18.251] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 03:00:18.252] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 03:00:18.286] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 03:00:18.287] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:118927
+    at w.provideDocumentHighlights (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:165580)
+[2021-09-03 03:00:52.382] [exthost] [warning] TextEditor is closed/disposed
+[2021-09-03 03:00:52.382] [exthost] [warning] TextEditor is closed/disposed
+[2021-09-03 03:00:52.382] [exthost] [warning] TextEditor is closed/disposed
+[2021-09-03 03:00:52.398] [exthost] [warning] {"name":"DISPOSED","message":"TextEditor(vs.editor.ICodeEditor:5,$model1) has been disposed"}
+[2021-09-03 03:06:51.010] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 03:06:51.010] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 03:06:57.012] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 03:06:57.012] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 03:07:14.503] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 03:07:14.503] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 03:07:17.048] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 03:07:17.048] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 03:07:18.326] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 03:07:18.326] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 03:07:23.347] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 03:07:23.348] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:122854
+    at k.provideCodeActions (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:166936)
+[2021-09-03 03:14:04.571] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 03:14:04.571] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:115335
+    at s.provideHover (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:164654)
+[2021-09-03 04:19:37.905] [exthost] [error] [ms-python.python] provider FAILED
+[2021-09-03 04:19:37.906] [exthost] [error] Canceled: Canceled
+    at _.makeCancelError (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:155142)
+    at _.handleFailedRequest (/home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:154993)
+    at /home/arsonstan/.vscode/extensions/ms-python.python-2021.9.1191016588/out/client/extension.js:9:119981
+    at c.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:85:161482)
+[2021-09-03 05:17:37.281] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-09-03 05:17:37.658] [exthost] [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/arsonstan/.vscode/extensions/vscodevim.vim-1.21.7/src/register/register.ts:350:30)
+    at Object.e.deactivate (/home/arsonstan/.vscode/extensions/vscodevim.vim-1.21.7/extension.ts:37:18)
+    at v._deactivate (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:11286)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:10000
+    at Array.map (<anonymous>)
+    at v.deactivateAll (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:90:9988)
+    at P.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:725)
+    at h (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:32088)
+    at Socket.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:104:29731)
+    at Socket.emit (events.js:327:22)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-09-03 05:17:38.351] [exthost] [info] exiting with code 0

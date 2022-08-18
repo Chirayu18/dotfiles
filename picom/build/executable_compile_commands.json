@@ -1,0 +1,164 @@
+[
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/picom.c.o -MF src/picom.p/picom.c.o.d -o src/picom.p/picom.c.o -c ../src/picom.c",
+    "file": "../src/picom.c",
+    "output": "src/picom.p/picom.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/win.c.o -MF src/picom.p/win.c.o.d -o src/picom.p/win.c.o -c ../src/win.c",
+    "file": "../src/win.c",
+    "output": "src/picom.p/win.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/c2.c.o -MF src/picom.p/c2.c.o.d -o src/picom.p/c2.c.o -c ../src/c2.c",
+    "file": "../src/c2.c",
+    "output": "src/picom.p/c2.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/x.c.o -MF src/picom.p/x.c.o.d -o src/picom.p/x.c.o -c ../src/x.c",
+    "file": "../src/x.c",
+    "output": "src/picom.p/x.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/config.c.o -MF src/picom.p/config.c.o.d -o src/picom.p/config.c.o -c ../src/config.c",
+    "file": "../src/config.c",
+    "output": "src/picom.p/config.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/vsync.c.o -MF src/picom.p/vsync.c.o.d -o src/picom.p/vsync.c.o -c ../src/vsync.c",
+    "file": "../src/vsync.c",
+    "output": "src/picom.p/vsync.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/utils.c.o -MF src/picom.p/utils.c.o.d -o src/picom.p/utils.c.o -c ../src/utils.c",
+    "file": "../src/utils.c",
+    "output": "src/picom.p/utils.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/diagnostic.c.o -MF src/picom.p/diagnostic.c.o.d -o src/picom.p/diagnostic.c.o -c ../src/diagnostic.c",
+    "file": "../src/diagnostic.c",
+    "output": "src/picom.p/diagnostic.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/string_utils.c.o -MF src/picom.p/string_utils.c.o.d -o src/picom.p/string_utils.c.o -c ../src/string_utils.c",
+    "file": "../src/string_utils.c",
+    "output": "src/picom.p/string_utils.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/render.c.o -MF src/picom.p/render.c.o.d -o src/picom.p/render.c.o -c ../src/render.c",
+    "file": "../src/render.c",
+    "output": "src/picom.p/render.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/kernel.c.o -MF src/picom.p/kernel.c.o.d -o src/picom.p/kernel.c.o -c ../src/kernel.c",
+    "file": "../src/kernel.c",
+    "output": "src/picom.p/kernel.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/log.c.o -MF src/picom.p/log.c.o.d -o src/picom.p/log.c.o -c ../src/log.c",
+    "file": "../src/log.c",
+    "output": "src/picom.p/log.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/options.c.o -MF src/picom.p/options.c.o.d -o src/picom.p/options.c.o -c ../src/options.c",
+    "file": "../src/options.c",
+    "output": "src/picom.p/options.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/event.c.o -MF src/picom.p/event.c.o.d -o src/picom.p/event.c.o -c ../src/event.c",
+    "file": "../src/event.c",
+    "output": "src/picom.p/event.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/cache.c.o -MF src/picom.p/cache.c.o.d -o src/picom.p/cache.c.o -c ../src/cache.c",
+    "file": "../src/cache.c",
+    "output": "src/picom.p/cache.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/atom.c.o -MF src/picom.p/atom.c.o.d -o src/picom.p/atom.c.o -c ../src/atom.c",
+    "file": "../src/atom.c",
+    "output": "src/picom.p/atom.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/file_watch.c.o -MF src/picom.p/file_watch.c.o.d -o src/picom.p/file_watch.c.o -c ../src/file_watch.c",
+    "file": "../src/file_watch.c",
+    "output": "src/picom.p/file_watch.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/config_libconfig.c.o -MF src/picom.p/config_libconfig.c.o.d -o src/picom.p/config_libconfig.c.o -c ../src/config_libconfig.c",
+    "file": "../src/config_libconfig.c",
+    "output": "src/picom.p/config_libconfig.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/opengl.c.o -MF src/picom.p/opengl.c.o.d -o src/picom.p/opengl.c.o -c ../src/opengl.c",
+    "file": "../src/opengl.c",
+    "output": "src/picom.p/opengl.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/dbus.c.o -MF src/picom.p/dbus.c.o.d -o src/picom.p/dbus.c.o -c ../src/dbus.c",
+    "file": "../src/dbus.c",
+    "output": "src/picom.p/dbus.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_backend_common.c.o -MF src/picom.p/backend_backend_common.c.o.d -o src/picom.p/backend_backend_common.c.o -c ../src/backend/backend_common.c",
+    "file": "../src/backend/backend_common.c",
+    "output": "src/picom.p/backend_backend_common.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_xrender_xrender.c.o -MF src/picom.p/backend_xrender_xrender.c.o.d -o src/picom.p/backend_xrender_xrender.c.o -c ../src/backend/xrender/xrender.c",
+    "file": "../src/backend/xrender/xrender.c",
+    "output": "src/picom.p/backend_xrender_xrender.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_dummy_dummy.c.o -MF src/picom.p/backend_dummy_dummy.c.o.d -o src/picom.p/backend_dummy_dummy.c.o -c ../src/backend/dummy/dummy.c",
+    "file": "../src/backend/dummy/dummy.c",
+    "output": "src/picom.p/backend_dummy_dummy.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_backend.c.o -MF src/picom.p/backend_backend.c.o.d -o src/picom.p/backend_backend.c.o -c ../src/backend/backend.c",
+    "file": "../src/backend/backend.c",
+    "output": "src/picom.p/backend_backend.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_driver.c.o -MF src/picom.p/backend_driver.c.o.d -o src/picom.p/backend_driver.c.o -c ../src/backend/driver.c",
+    "file": "../src/backend/driver.c",
+    "output": "src/picom.p/backend_driver.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_gl_gl_common.c.o -MF src/picom.p/backend_gl_gl_common.c.o.d -o src/picom.p/backend_gl_gl_common.c.o -c ../src/backend/gl/gl_common.c",
+    "file": "../src/backend/gl/gl_common.c",
+    "output": "src/picom.p/backend_gl_gl_common.c.o"
+  },
+  {
+    "directory": "/home/arsonstan/Downloads/picom/build",
+    "command": "cc -Isrc/picom.p -Isrc -I../src -Isubprojects/test.h -I../subprojects/test.h -I/usr/include/pixman-1 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O3 '-DCOMPTON_VERSION=\"vgit-a8445\"' -DNDEBUG -D_GNU_SOURCE -DHAS_STDC_PREDEF_H -Wall -Wcast-function-type -Wignored-qualifiers -Wmissing-parameter-type -Wnonnull -Wshadow -Wno-type-limits -Wold-style-declaration -Woverride-init -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -Wunused-but-set-parameter -Wunused-parameter -Wimplicit-fallthrough -Wno-missing-braces -Wconversion -Wempty-body -DCONFIG_LIBCONFIG -DCONFIG_REGEX_PCRE -DCONFIG_REGEX_PCRE_JIT -DCONFIG_OPENGL -DGL_GLEXT_PROTOTYPES -DCONFIG_DBUS -DHAS_INOTIFY -MD -MQ src/picom.p/backend_gl_glx.c.o -MF src/picom.p/backend_gl_glx.c.o.d -o src/picom.p/backend_gl_glx.c.o -c ../src/backend/gl/glx.c",
+    "file": "../src/backend/gl/glx.c",
+    "output": "src/picom.p/backend_gl_glx.c.o"
+  }
+]

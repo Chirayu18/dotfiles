@@ -1,0 +1,30 @@
+#!/bin/sh
+function display_order() 
+{
+	xrandr --output eDP1 --right-of HDMI-0
+}
+config=~/scripts/display.cfg
+primary_screen="eDP1"
+secondary_screen="HDMI-0"
+option=$1
+test -z "$1" && option="$(echo -e "Primary\nSecondary\nCombined" | rofi -dmenu -p "display: " -show)"
+if [[ "$option" == "Primary" ]]; then
+	xrandr --auto &&
+	xrandr --output $secondary_screen --off && 
+	sed -i -e "/disabled_displays/s/.*/disabled_displays=($secondary_screen)/" $config &&
+	notify-send "Showing only primary screen"
+
+elif [[ "$option" == "Secondary" ]]; then
+	xrandr --auto &&
+	xrandr --output $primary_screen --off && 
+	sed -i -e "/disabled_displays/s/.*/disabled_displays=($primary_screen)/" $config &&
+	notify-send "Showing only secondary screen"
+elif [[ "$option" == "Combined" ]]; then
+	xrandr --auto &&
+	display_order &&
+	sed -i -e "/disabled_displays/s/.*/disabled_displays=/" $config
+	notify-send "Showing both screens"
+else
+	echo "An error occured"
+fi
+

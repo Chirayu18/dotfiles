@@ -1,0 +1,21 @@
+[General]
+Recent Urls[$e]=file:///home/arsonstan/Projects/iiserlogin/main.py
+TimeFormat=1
+Volume=1
+
+[MainWindow]
+HDMI-0 eDP1 Height 1920x1080=1046
+HDMI-0 eDP1 Width 1920x1080=958
+HDMI-0 eDP1 XPosition 1920x1080=2881
+HDMI-0 eDP1 YPosition 1920x1080=33
+State=AAAA/wAAAAD9AAAAAAAAA74AAAPDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[file:///home/arsonstan/Projects/iiserlogin/main.py]
+Brightness=0
+Contrast=0
+Date=2022,7,26
+Hue=0
+IsVideo=false
+Preferred Size=100,30
+Saturation=0
